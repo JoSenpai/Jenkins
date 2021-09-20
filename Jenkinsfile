@@ -3,6 +3,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                echo "HELLOP"
+                echo "BUILD USER $BUILD_USER"
                 sh './gradlew build'
             }
         }
