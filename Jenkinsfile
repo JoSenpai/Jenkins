@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "HELLOP"
-                echo "BUILD USER $BUILD_USER"
+                echo "BUILD USERR $BUILD_USER"
                 sh './gradlew build'
             }
         }
